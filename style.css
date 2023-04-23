@@ -1,5 +1,5 @@
 .meal-box {
-    border: 4px solid yellow;
+    border: 4px solid rgb(255, 0, 200);
     margin-top: 10px;
     margin-left: 10px;
     margin-bottom: 10px;
@@ -12,7 +12,7 @@
     position: relative;
 }
 body {
-    background-image: radial-gradient(ellipse at top center, skyblue,gold,green);
+    background-image: radial-gradient(ellipse at top center, rgb(0, 183, 255),rgb(0, 255, 157),rgb(255, 0, 200));
 }
 .main-meal {
     border: 7px solid rgb(0, 0, 0);
@@ -49,7 +49,7 @@ body {
 .main-photo {
     margin-left: auto;
   margin-right: auto;
-  display: block;
+  display: flex;
 }
 
 .main-text {
@@ -83,4 +83,14 @@ body {
   }
   .meal-box:hover .overlay {
     opacity: 1;
+  }
+
+  .bober {
+    width: 150px;
+    height: 150px;
+  }
+
+  .main-textt {
+    color: rgb(255, 238, 0);
+    font-family: 'Courier New', Courier, monospace;
   }
