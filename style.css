@@ -34,13 +34,13 @@ body {
 .pages-list {
     display: flex;
     gap: 30px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   justify-content: space-around;
   list-style: none ;
 }
 .main-title {
     color: rgb(255, 255, 255);
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
   font-size: 42px;
   text-transform: uppercase;
